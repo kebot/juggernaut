@@ -1,6 +1,6 @@
 { "name" : "juggernaut"
 , "description" : "Realtime PubSub server push."
-, "version" : "2.0.14"
+, "version" : "2.0.15"
 , "author" : "maccman"
 , "licenses" :
   [ { "type" : "MIT"
@@ -18,6 +18,6 @@
   { "socket.io" :   "=0.8.7"
   , "redis" :       "=0.7.1"
   , "node-static" : "~0.5.9"
-  , "optimist":     "~0.3.0"
+  , "optimist":     "~0.3.1"
   }
 }
