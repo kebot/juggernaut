@@ -1,6 +1,6 @@
 { "name" : "juggernaut"
 , "description" : "Realtime PubSub server push."
-, "version" : "2.0.17"
+, "version" : "2.0.18"
 , "author" : "maccman"
 , "licenses" :
   [ { "type" : "MIT"
@@ -15,7 +15,7 @@
 , "main" : "./index"
 , "bin" : { "juggernaut" : "./server.js" }
 , "dependencies" :
-  { "socket.io" :   "git://github.com/LearnBoost/socket.io.git#master"
+  { "socket.io" :   "=0.9.0"
   , "redis" :       "=0.7.1"
   , "node-static" : "~0.5.9"
   , "optimist":     "~0.3.1"
